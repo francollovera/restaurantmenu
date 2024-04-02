@@ -9,14 +9,15 @@ import diapo4 from './fotos/4.png';
 import diapo5 from './fotos/5.png';
 import diapo6 from './fotos/6.png';
 import diapo7 from './fotos/7.png';
-import diapo8 from './fotos/8.png'; 
+import diapo8 from './fotos/8.png';
+import diapo9 from './fotos/9.png'; 
 
 
 function Menu() {
   return (
     <div>
       <div className="master">
-      <img src={diapo0} alt='diapo0' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
+        <img src={diapo0} alt='diapo0' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
         <img src={diapo1} alt='diapo1' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
         <img src={diapo2} alt='diapo2' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
         <img src={diapo3} alt='diapo3' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
@@ -26,7 +27,8 @@ function Menu() {
         <img src={diapo7} alt='diapo7' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
       </div>
       <img src={diapo8} alt='diapo8' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
-      </div>
+      <img src={diapo9} alt='diapo9' style={{ width: '100%', height: 'auto' }} className="responsive-image" />
+    </div>
   );
 }
 
